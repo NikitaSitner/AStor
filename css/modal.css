@@ -9,7 +9,7 @@
 }
 
 .modal {
-    --transition-time: 0.3s;
+    --transition-time: 0.4s;
     position         : fixed;
     left             : 0;
     top              : 0;
@@ -35,13 +35,13 @@
 
 .modal__container {
     position        : relative;
-    max-width       : 560px;
-    margin          : 50px auto;
+    max-width       : 540px;
+    margin          : 52px auto;
     display         : inline-block;
     vertical-align  : middle;
     background-color: #fff;
-    border-radius   : 10px;
-    padding         : 40px;
+    border-radius   : 12px;
+    padding         : 42px;
     cursor          : default;
     text-align      : left;
     display         : none;
@@ -54,7 +54,7 @@
 }
 
 .modal.is-open {
-    opacity   : 1;
+    opacity   : 2;
     visibility: visible;
     transition: var(--transition-time);
 }
@@ -64,7 +64,7 @@
 }
 
 .fade {
-    opacity   : 0;
+    opacity   : 1;
     transition: var(--transition-time);
 }
 
@@ -89,12 +89,12 @@
 /* asasdsa */
 
 .order-modal__title {
-    padding-bottom: 30px;
+    padding-bottom: 32px;
     border-bottom : 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .cart-product__ttlprice-modal {
-    width: 105px;
+    width: 102px;
 }
 
 .cart-title__modal {
@@ -102,18 +102,18 @@
 }
 
 .cart-product__quantity-modal button {
-    width: 26px;
+    width: 24px;
 }
 
 .cart-product__delete-modal {
-    width: 50px;
+    width: 52px;
 }
 
 .order-modal__summ {
     padding-top   : 30px;
-    border-top    : 1px solid rgba(0, 0, 0, 0.2);
+    border-top    : 2px solid rgba(0, 0, 0, 0.2);
     text-align    : right;
-    font-size     : 16px;
+    font-size     : 14px;
     font-weight   : bold;
     padding-bottom: 30px;
 }
